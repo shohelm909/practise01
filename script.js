@@ -15,3 +15,9 @@ var islogin = true;
 
 var access = islogin ? "true" : "false";
 document.write(access);
+var a= 5;
+var access1 = a>5 ? "true":"false";
+document.write(access1);
+
+var access2 = a > 5;
+document.write(access2);
