@@ -38,12 +38,20 @@ cats1 = cats.charAt(5);
 document.write(cats1,"<br/>")
 var newCats = cats3.concat(cats);
 document.write(" ", newCats, "<br/>");
-var cats= "my name is Shohel";
+var cats= "bangladesh";
 
-var newCats = cats.split(" ");
+var newCats = cats.split(",");
 var text = " ";
 for (var i=0;i<newCats.length;i++){
     text += newCats[i] + "<br/>"
 }
 
 document.write(text);
+var cats= "bangladesh";
+
+var text = " ";
+for (var i=0; i<cats.length;i++){
+    text += cats[i] + "<br/>"
+}
+document.write(text);
+
